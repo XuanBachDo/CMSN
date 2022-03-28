@@ -29,7 +29,7 @@ const Portfolio = () => {
                 Github
               </a>
               <a
-                href="https://thdungwithbugs.github.io/travelhd_demo/"
+                href="https://travelhd-demo.vercel.app/"
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
@@ -55,7 +55,7 @@ const Portfolio = () => {
                 Github
               </a>
               <a
-                href="https://thdungwithbugs.github.io/realestateHD_demo/"
+                href="https://realestate-hd-demo.vercel.app/"
                 className="btn btn-primary"
                 rel="noreferrer"
                 target="_blank"
