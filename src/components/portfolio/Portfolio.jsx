@@ -21,7 +21,7 @@ const Portfolio = () => {
             <h3>Travel Landing page : React</h3>
             <div className="portfolio__item-cta">
               <a
-                href="https://github.com"
+                href="https://github.com/thdungwithbugs/travelhd_demo"
                 className="btn"
                 target="_blank"
                 rel="noreferrer"
@@ -29,7 +29,7 @@ const Portfolio = () => {
                 Github
               </a>
               <a
-                href="https://github.com"
+                href="https://thdungwithbugs.github.io/travelhd_demo/"
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
@@ -47,7 +47,7 @@ const Portfolio = () => {
             <h3>Villa : React, Styled components</h3>
             <div className="portfolio__item-cta">
               <a
-                href="https://github.com"
+                href="https://github.com/thdungwithbugs/realestateHD_demo"
                 className="btn"
                 target="_blank"
                 rel="noreferrer"
@@ -55,7 +55,7 @@ const Portfolio = () => {
                 Github
               </a>
               <a
-                href="https://github.com"
+                href="https://thdungwithbugs.github.io/realestateHD_demo/"
                 className="btn btn-primary"
                 rel="noreferrer"
                 target="_blank"
@@ -73,7 +73,7 @@ const Portfolio = () => {
             <h3>Music web : React, TailwindCSS</h3>
             <div className="portfolio__item-cta">
               <a
-                href="https://github.com"
+                href="https://github.com/thdungwithbugs/HDLofi"
                 className="btn"
                 target="_blank"
                 rel="noreferrer"
@@ -81,7 +81,7 @@ const Portfolio = () => {
                 Github
               </a>
               <a
-                href="https://github.com"
+                href="https://thdungwithbugs.github.io/HDLofi/"
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
