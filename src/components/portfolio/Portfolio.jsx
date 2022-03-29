@@ -6,6 +6,7 @@ import portfolio3 from "../../assets/portfolio3.png";
 import portfolio4 from "../../assets/portfolio4.png";
 import portfolio5 from "../../assets/portfolio5.png";
 import portfolio6 from "../../assets/portfolio6.png";
+import portfolio7 from "../../assets/portfolio7.png";
 
 const Portfolio = () => {
   return (
@@ -149,6 +150,32 @@ const Portfolio = () => {
                 target="_blank"
               >
                 Figma
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={portfolio7} alt="portfolio pic" />
+          </div>
+          <div className="content">
+            <h3>Face Scan : Javascript, face-api.js</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/thdungwithbugs/faceRecognition_hd"
+                rel="noreferrer"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+              <a
+                href="https://thdungwithbugs.github.io/faceRecognition_hd/"
+                rel="noreferrer"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Live Demo
               </a>
             </div>
           </div>
