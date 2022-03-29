@@ -4,6 +4,7 @@ import ava1 from "../../assets/avatar1.jpg";
 import ava2 from "../../assets/avatar2.jpg";
 import ava3 from "../../assets/avatar3.jpg";
 import ava4 from "../../assets/avatar4.jpg";
+import ava5 from "../../assets/avatar5.jpg";
 // import Swiper core and required modules
 import { Pagination } from "swiper";
 
@@ -40,11 +41,20 @@ const Cv = () => {
       >
         <SwiperSlide className="cv">
           <div className="cv__avatar">
+            <img src={ava5} alt="" />
+          </div>
+          <h5>Outstanding achievements</h5>
+          <small className="cv__content">
+          Second prize in provincial math exam in 2013/ Graduated from Le Quy Don high school in math class, Binh Dinh province/ University scholarship in 2019
+          </small>
+        </SwiperSlide>
+        <SwiperSlide className="cv">
+          <div className="cv__avatar">
             <img src={ava1} alt="" />
           </div>
           <h5>Hobbies</h5>
           <small className="cv__content">
-          Traveling/ Watching horror movies/ Listening to lofi/ Coding website/ Playing football
+          Traveling/ Watching horror movies/ Listening to lofi/ Coding website/ Playing football/ Solve math
           </small>
         </SwiperSlide>
         <SwiperSlide className="cv">
@@ -53,7 +63,8 @@ const Cv = () => {
           </div>
           <h5>Talents</h5>
           <small className="cv__content">
-          Singing/ Playing game (LOL)/ Taking pictures/ Solving math
+          Paint/ Singing/ Playing game (LOL)/ Taking pictures/ Solving math/ Learn quickly/ Presentations to the crowd
+
           </small>
         </SwiperSlide>
         <SwiperSlide className="cv">
@@ -62,16 +73,16 @@ const Cv = () => {
           </div>
           <h5>Characters</h5>
           <small className="cv__content">
-          Sociable/ Inquisitive/ Gentle/ Responsible at work/ Humorous/ Emotional
+          Sociable/ Inquisitive/ Gentle/ Responsible at work/ Humorous/ Emotional/ Reasonable/ Adapt quickly
           </small>
         </SwiperSlide>
         <SwiperSlide className="cv">
           <div className="cv__avatar">
             <img src={ava4} alt="" />
           </div>
-          <h5>And ?</h5>
+          <h5>Weakness</h5>
           <small className="cv__content">
-          Nothing. Thank you for watching until here, hope to work with you ^_^
+          Don't have much real experience in this field/ English ability is still limited (TOEIC 595)/ Easily affected by negative arguments... but I'm improving better
           </small>
         </SwiperSlide>
       </Swiper>
