@@ -63,7 +63,7 @@ const Cv = () => {
           </div>
           <h5>Talents</h5>
           <small className="cv__content">
-          Paint/ Singing/ Playing game (LOL)/ Taking pictures/ Solving math/ Learn quickly/ Presentations to the crowd
+          Painting / Singing/ Playing game (LOL)/ Taking pictures/ Solving math/ Learn quickly/ Presentations to the crowd
 
           </small>
         </SwiperSlide>
