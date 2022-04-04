@@ -159,7 +159,7 @@ const Portfolio = () => {
             <img src={portfolio7} alt="portfolio pic" />
           </div>
           <div className="content">
-            <h3>Face Scan : Javascript, face-api.js</h3>
+            <h3>Face Scan : Face-api.js</h3>
             <div className="portfolio__item-cta">
               <a
                 href="https://github.com/thdungwithbugs/faceRecognition_hd"
