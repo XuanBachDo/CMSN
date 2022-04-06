@@ -96,6 +96,11 @@ img {
   width: 100%;
   object-fit: cover;
 }
+
+::selection {
+  background: var(--color-bg-variant);
+  color: #fff;
+}
 /* Responsive */
 @media screen and (max-width: 1024px) {
   .container {

@@ -45,7 +45,7 @@ const Cv = () => {
           </div>
           <h5>Outstanding achievements</h5>
           <small className="cv__content">
-          Second prize in provincial math exam in 2013/ Graduated from Le Quy Don high school in math class, Binh Dinh province/ University scholarship in 2019
+          Second prize in provincial math exam in 2013/ Graduated from Le Quy Don specialized school in math class, Binh Dinh/ University scholarship in 2019
           </small>
         </SwiperSlide>
         <SwiperSlide className="cv">
@@ -63,7 +63,7 @@ const Cv = () => {
           </div>
           <h5>Talents</h5>
           <small className="cv__content">
-          Painting / Singing/ Playing game (LOL)/ Taking pictures/ Solving math/ Learn quickly/ Presentations to the crowd
+          Painting / Singing/ Playing game (LOL)/ Taking pictures/ Solving math/ Learn quickly/ Present to the crowd
 
           </small>
         </SwiperSlide>

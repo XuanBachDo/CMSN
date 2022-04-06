@@ -1,16 +1,28 @@
-import React from "react";
+import React, { Children, useState } from "react";
 import "./footer.css";
 import { FaFacebookSquare } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import Astro from "../../assets/footer-astro.png";
+import useHover from "../../hooks/useHover";
+import ReactDOM from "react-dom";
+
 const Footer = () => {
+  const { hovered, nodeRef } = useHover();
+  const [coords, setCoords] = useState({});
+  const handleHover = (event) => {
+    setCoords(event.target.getBoundingClientRect());
+  };
   return (
     <footer>
       <img src={Astro} alt="" className="astro" />
       <a href="#" className="footer__logo">
-        HDung Portfolio
+        {hovered && <TooltipContent coords={coords}></TooltipContent>}
+        <h1 ref={nodeRef} onMouseOver={handleHover}>
+          {" "}
+          HDung Portfolio
+        </h1>
       </a>
       <ul className="permalinks">
         <li>
@@ -68,12 +80,37 @@ const Footer = () => {
       <div className="footer__copyright">
         <small>
           {" "}
-          A portfolio website coded by ReactJS by Hoang Dung &copy; 2022. All
-          rights reserved.{" "}
+          A portfolio website coded by ReactJS by Hoang Dung &copy; 2022. Reference: Egator.{" "}
         </small>
       </div>
     </footer>
   );
 };
+
+function TooltipContent({ coords, children }) {
+  console.log(coords);
+  if (typeof document === "undefined") return;
+  return ReactDOM.createPortal(
+    <p
+      style={{
+        padding: "4px 7px",
+        background: 'linear-gradient(45deg, #f64f59, #c471ed, #12c2e9)',
+        color: "white",
+        borderRadius: "8px",
+        position: "absolute",
+        display: "inline-block",
+        top: coords.top - coords.height / 2 + window.scrollY,
+        left: coords.left,
+        // maxWidth:'200px',
+        // transform: '-100%',
+        transition: "all",
+        opacity: 1,
+      }}
+    >
+      _Thanks for your view and hope to connect with you...
+    </p>,
+    document.querySelector("body")
+  );
+}
 
 export default Footer;
