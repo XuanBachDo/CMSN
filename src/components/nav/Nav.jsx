@@ -5,9 +5,20 @@ import { BiBook, BiMessageSquareDots } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { IoCodeSlashSharp } from "react-icons/io5";
 import { IoInformation } from "react-icons/io5";
+import { IoMusicalNotesSharp } from "react-icons/io5";
 
 const Nav = () => {
   const [isActiveNav, setIsActiveNav] = useState("#");
+  const [onMusic, setOnMusic] = useState(false);
+
+  const handlePlayMusic = () => {
+    setOnMusic(!onMusic);
+    if (onMusic === false) return document.querySelector("audio").play();
+    else {
+      return document.querySelector("audio").pause();
+    }
+  };
+  console.log(onMusic);
   return (
     <nav>
       <a
@@ -72,6 +83,16 @@ const Nav = () => {
         className={isActiveNav === "#contact" ? "active" : ""}
       >
         <BiMessageSquareDots />
+      </a>
+      <a
+        onClick={() => {
+          setIsActiveNav("#music");
+          // document.querySelector("audio").play();
+          handlePlayMusic();
+        }}
+        className={isActiveNav === "#music" ? "active" : ""}
+      >
+        <IoMusicalNotesSharp />
       </a>
     </nav>
   );
