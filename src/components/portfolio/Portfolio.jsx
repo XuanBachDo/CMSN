@@ -47,7 +47,7 @@ const Portfolio = () => {
             <img src={portfoliomu} alt="portfolio pic" />
           </div>
           <div className="content">
-            <h3>HDMuvi Film Infomation : React</h3>
+            <h3>HDMuvi Infomation : React, TailwindCSS, TMDB</h3>
             <div className="portfolio__item-cta">
               <a
                 href="https://github.com/thdungwithbugs/HDMuvi"
