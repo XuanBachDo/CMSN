@@ -31,6 +31,7 @@ const Cv = () => {
     <section id="Cv">
       <h5>Personal Details and Soft Skills</h5>
       <h2>Some interesting things</h2>
+      <div className="cv-bubble"></div>
       <Swiper
         className="container cv__container" // install Swiper modules
         modules={[Pagination]}

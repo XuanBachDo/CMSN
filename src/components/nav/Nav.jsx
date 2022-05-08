@@ -6,6 +6,7 @@ import { RiServiceLine } from "react-icons/ri";
 import { IoCodeSlashSharp } from "react-icons/io5";
 import { IoInformation } from "react-icons/io5";
 import { IoMusicalNotesSharp } from "react-icons/io5";
+import {RiRoadMapLine} from 'react-icons/ri'
 
 const Nav = () => {
   const [isActiveNav, setIsActiveNav] = useState("#");
@@ -65,6 +66,15 @@ const Nav = () => {
         className={isActiveNav === "#portfolio" ? "active" : ""}
       >
         <IoCodeSlashSharp />
+      </a>
+      <a id="nav_road"
+        href="#road"
+        onClick={() => {
+          setIsActiveNav("#road");
+        }}
+        className={isActiveNav === "#road" ? "active" : ""}
+      >
+        <RiRoadMapLine />
       </a>
       <a
         href="#Cv"

@@ -1,12 +1,14 @@
 import React from "react";
 import "./portfolio.css";
-import portfolio1 from "../../assets/portfolio1.png";
+import portfolio from "../../assets/portfolio.png";
 import portfolio2 from "../../assets/portfolio2.png";
 import portfolio3 from "../../assets/portfolio3.png";
 import portfolio4 from "../../assets/portfolio4.png";
 import portfolio5 from "../../assets/portfolio5.png";
 import portfolio6 from "../../assets/portfolio6.png";
 import portfolio7 from "../../assets/portfolio7.png";
+import portfoliomu from "../../assets/portfoliomu.png";
+import myPortfolio from "../../assets/myportfolio.png";
 
 const Portfolio = () => {
   return (
@@ -16,13 +18,39 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={portfolio1} alt="portfolio pic" />
+            <img src={portfolio} alt="portfolio pic" />
           </div>
           <div className="content">
-            <h3>Travel Landing page : React</h3>
+            <h3>HDTicket : React, TailwindCSS, Antd</h3>
             <div className="portfolio__item-cta">
               <a
-                href="https://github.com/thdungwithbugs/travelhd_demo"
+                // href="https://github.com/thdungwithbugs/travelhd_demo"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Private
+              </a>
+              <a
+                href="https://hdticket.vercel.app/"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={portfoliomu} alt="portfolio pic" />
+          </div>
+          <div className="content">
+            <h3>HDMuvi Film Infomation : React</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/thdungwithbugs/HDMuvi"
                 className="btn"
                 target="_blank"
                 rel="noreferrer"
@@ -30,7 +58,7 @@ const Portfolio = () => {
                 Github
               </a>
               <a
-                href="https://travelhd-demo.vercel.app/"
+                href="https://hdmovie-teal.vercel.app/"
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
@@ -45,7 +73,7 @@ const Portfolio = () => {
             <img src={portfolio2} alt="portfolio pic" />
           </div>
           <div className="content">
-            <h3>Villa : React, Styled components</h3>
+            <h3>Villa UI: React, Styled components</h3>
             <div className="portfolio__item-cta">
               <a
                 href="https://github.com/thdungwithbugs/realestateHD_demo"
@@ -59,6 +87,32 @@ const Portfolio = () => {
                 href="https://realestate-hd-demo.vercel.app/"
                 className="btn btn-primary"
                 rel="noreferrer"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={myPortfolio} alt="portfolio pic" />
+          </div>
+          <div className="content">
+            <h3>HD Portfolio : React, CSS</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://thdungwithbugs.github.io/my-portfolio/"
+                rel="noreferrer"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+              <a
+                href="https://github.com/thdungwithbugs/my-portfolio"
+                rel="noreferrer"
+                className="btn btn-primary"
                 target="_blank"
               >
                 Live Demo
@@ -120,6 +174,32 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
+            <img src={portfolio7} alt="portfolio pic" />
+          </div>
+          <div className="content">
+            <h3>Face Scan : Face-api.js</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/thdungwithbugs/faceRecognition_hd"
+                rel="noreferrer"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+              <a
+                href="https://thdungwithbugs.github.io/faceRecognition_hd/"
+                rel="noreferrer"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
             <img src={portfolio5} alt="portfolio pic" />
           </div>
           <div className="content">
@@ -150,32 +230,6 @@ const Portfolio = () => {
                 target="_blank"
               >
                 Figma
-              </a>
-            </div>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={portfolio7} alt="portfolio pic" />
-          </div>
-          <div className="content">
-            <h3>Face Scan : Face-api.js</h3>
-            <div className="portfolio__item-cta">
-              <a
-                href="https://github.com/thdungwithbugs/faceRecognition_hd"
-                rel="noreferrer"
-                className="btn"
-                target="_blank"
-              >
-                Github
-              </a>
-              <a
-                href="https://thdungwithbugs.github.io/faceRecognition_hd/"
-                rel="noreferrer"
-                className="btn btn-primary"
-                target="_blank"
-              >
-                Live Demo
               </a>
             </div>
           </div>

@@ -36,6 +36,30 @@
     background: var(--color-primary);
     cursor: pointer;
 }
+.cv-bubble{
+    margin: 0 auto 3rem;
+    overflow: hidden;
+    max-width: 14rem;
+    height: 14rem;
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    background: url(../../assets/bubble.jpg);
+    background-size: cover;
+    background-position: center;
+    animation: bubble 6s linear infinite;
+}
+
+@keyframes bubble {
+    0%, 100%{
+        border-radius: 42% 56% 72% 285 / 42% 42% 56% 48%;
+    }
+    33%{
+        border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%;
+    }
+    66%{
+        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    }
+}
+
 @media screen and (max-width:1024px) {
     .container.cv__container{
         width: 60%;
