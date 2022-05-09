@@ -37,9 +37,8 @@ const About = () => {
               <VscProject className="about__icon" />
               <h5>Demo Projects</h5>
               <small>
-                Weather miniBOT, Adventure travel website, RealEstate Villa
-                landing page, SpotifyHD music website, Todo-list app, Bau Cua
-                minigame...
+                HDTicket, HDMuvi, Weather miniBOT, RealEstate Villa
+                landing page, Adventure travel landing page, SpotifyHD music website...
               </small>
             </article>
           </div>

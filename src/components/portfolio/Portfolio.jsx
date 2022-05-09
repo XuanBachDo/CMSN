@@ -9,6 +9,7 @@ import portfolio6 from "../../assets/portfolio6.png";
 import portfolio7 from "../../assets/portfolio7.png";
 import portfoliomu from "../../assets/portfoliomu.png";
 import myPortfolio from "../../assets/myportfolio.png";
+import fig1 from "../../assets/fig1.png";
 
 const Portfolio = () => {
   return (
@@ -203,7 +204,7 @@ const Portfolio = () => {
             <img src={portfolio5} alt="portfolio pic" />
           </div>
           <div className="content">
-            <h3>Movie website design : Figma</h3>
+            <h3>Movie homepage draft : Figma</h3>
             <div className="portfolio__item-cta">
               <a
                 href="https://www.figma.com/file/JcNusMghZlmXZjP8bBvbKx/Movie-Web?node-id=0%3A1"
@@ -218,13 +219,13 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={portfolio6} alt="portfolio pic" />
+            <img src={fig1} alt="portfolio pic" />
           </div>
           <div className="content">
-            <h3>Mar website design : Figma</h3>
+            <h3>Furniture website draft : Figma</h3>
             <div className="portfolio__item-cta">
               <a
-                href="https://www.figma.com/file/ndvubIwcTBXX5rpQhTaMeu/Untitled"
+                href="https://www.figma.com/file/U0fCpPxkGELrQJaWLSgFcB/Draft-web-n%E1%BB%99i-th%E1%BA%A5t?node-id=7%3A753"
                 rel="noreferrer"
                 className="btn"
                 target="_blank"

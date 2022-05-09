@@ -25,6 +25,14 @@ const Experience = () => {
                         </article>
                         <article className="experience__details">
                             <FaCode className='experience__details-icon'/>
+                            <h4>REACTJS</h4>
+                        </article>
+                        <article className="experience__details">
+                            <FaCode className='experience__details-icon'/>
+                            <h4>ANGULAR</h4>
+                        </article>
+                        <article className="experience__details">
+                            <FaCode className='experience__details-icon'/>
                             <h4>BOOTSTRAP</h4>
                         </article>
                         <article className="experience__details">
@@ -33,29 +41,25 @@ const Experience = () => {
                         </article>
                         <article className="experience__details">
                             <FaCode className='experience__details-icon'/>
-                            <h4>REACT</h4>
+                            <h4>FIREBASE</h4>
                         </article>
                         <article className="experience__details">
                             <FaCode className='experience__details-icon'/>
                             <h4>FIGMA</h4>
-                        </article>
-                        <article className="experience__details">
-                            <FaCode className='experience__details-icon'/>
-                            <h4>CANVA</h4>
                         </article>
                     </div>
                 </div>
                 <div className="experience__backend">
                 <h3>Backend Development</h3>
                 <div className="experience__content">
-                        <article className="experience__details">
+                        {/* <article className="experience__details">
                             <FaCode className='experience__details-icon'/>
                             <h4>MySQL</h4>
                         </article>
                         <article className="experience__details">
                             <FaCode className='experience__details-icon'/>
                             <h4>Python</h4>
-                        </article>
+                        </article> */}
                 <small className='text-light'>Upcoming...</small>
                 </div>
             </div>
