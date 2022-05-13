@@ -2,14 +2,14 @@ import React from "react";
 import "./portfolio.css";
 import portfolio from "../../assets/portfolio.png";
 import portfolio2 from "../../assets/portfolio2.png";
-import portfolio3 from "../../assets/portfolio3.png";
-import portfolio4 from "../../assets/portfolio4.png";
-import portfolio5 from "../../assets/portfolio5.png";
-import portfolio6 from "../../assets/portfolio6.png";
-import portfolio7 from "../../assets/portfolio7.png";
+import portfolio3 from "../../assets/music.png";
+import portfolio4 from "../../assets/crypto.png";
+import portfolio5 from "../../assets/pyscript2.png";
+// import portfolio6 from "../../assets/portfolio6.png";
+import portfolio7 from "../../assets/museum.png";
 import portfoliomu from "../../assets/portfoliomu.png";
 import myPortfolio from "../../assets/myportfolio.png";
-import fig1 from "../../assets/fig1.png";
+import fig1 from "../../assets/portfoliovege.png";
 
 const Portfolio = () => {
   return (
@@ -48,7 +48,7 @@ const Portfolio = () => {
             <img src={portfoliomu} alt="portfolio pic" />
           </div>
           <div className="content">
-            <h3>HDMuvi Infomation : React, TailwindCSS, TMDB</h3>
+            <h3>Film Search : React, TailwindCSS, TMDB</h3>
             <div className="portfolio__item-cta">
               <a
                 href="https://github.com/thdungwithbugs/HDMuvi"
@@ -74,7 +74,7 @@ const Portfolio = () => {
             <img src={portfolio2} alt="portfolio pic" />
           </div>
           <div className="content">
-            <h3>Villa UI: React, Styled components</h3>
+            <h3>RealEstate UI: React, Styled components</h3>
             <div className="portfolio__item-cta">
               <a
                 href="https://github.com/thdungwithbugs/realestateHD_demo"
@@ -123,10 +123,88 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
+            <img src={portfolio4} alt="portfolio pic" />
+          </div>
+          <div className="content">
+            <h3>HDCrypto Search : React, Coingecko API</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/thdungwithbugs/hdcrypto-searcher"
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://hdcrypto-searcher.vercel.app/"
+                rel="noreferrer"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={fig1} alt="portfolio pic" />
+          </div>
+          <div className="content">
+            <h3>Food recipe search : React, Edamam</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/thdungwithbugs/HDFood-recipe"
+                rel="noreferrer"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+              <a
+                href="https://hdfood-recipe.vercel.app/"
+                rel="noreferrer"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={portfolio7} alt="portfolio pic" />
+          </div>
+          <div className="content">
+            <h3>HDArt Museum : React, Artic API</h3>
+            <div className="portfolio__item-cta">
+              <a
+                href="https://github.com/thdungwithbugs/HDArt-museum"
+                rel="noreferrer"
+                className="btn"
+                target="_blank"
+              >
+                Github
+              </a>
+              <a
+                href="https://hda-rt-museum.vercel.app/"
+                rel="noreferrer"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
             <img src={portfolio3} alt="portfolio pic" />
           </div>
           <div className="content">
-            <h3>Music web : React, TailwindCSS</h3>
+            <h3>HDMusic : React, TailwindCSS</h3>
             <div className="portfolio__item-cta">
               <a
                 href="https://github.com/thdungwithbugs/HDLofi"
@@ -149,88 +227,26 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={portfolio4} alt="portfolio pic" />
-          </div>
-          <div className="content">
-            <h3>Weather Bot : React, Bootstrap</h3>
-            <div className="portfolio__item-cta">
-              <a
-                href="https://github.com/thdungwithbugs/weatherApp-demo"
-                className="btn"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Github
-              </a>
-              <a
-                href="https://thdungwithbugs.github.io/weatherApp-demo/"
-                rel="noreferrer"
-                className="btn btn-primary"
-                target="_blank"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={portfolio7} alt="portfolio pic" />
-          </div>
-          <div className="content">
-            <h3>Face Scan : Face-api.js</h3>
-            <div className="portfolio__item-cta">
-              <a
-                href="https://github.com/thdungwithbugs/faceRecognition_hd"
-                rel="noreferrer"
-                className="btn"
-                target="_blank"
-              >
-                Github
-              </a>
-              <a
-                href="https://thdungwithbugs.github.io/faceRecognition_hd/"
-                rel="noreferrer"
-                className="btn btn-primary"
-                target="_blank"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
             <img src={portfolio5} alt="portfolio pic" />
           </div>
           <div className="content">
-            <h3>Movie homepage draft : Figma</h3>
+            <h3>Explore something new : Pyscript</h3>
             <div className="portfolio__item-cta">
               <a
-                href="https://www.figma.com/file/JcNusMghZlmXZjP8bBvbKx/Movie-Web?node-id=0%3A1"
+                href="https://github.com/thdungwithbugs/Pyscript_Explore"
                 rel="noreferrer"
                 className="btn"
                 target="_blank"
               >
-                Figma
+                Github
               </a>
-            </div>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={fig1} alt="portfolio pic" />
-          </div>
-          <div className="content">
-            <h3>Furniture website draft : Figma</h3>
-            <div className="portfolio__item-cta">
               <a
-                href="https://www.figma.com/file/U0fCpPxkGELrQJaWLSgFcB/Draft-web-n%E1%BB%99i-th%E1%BA%A5t?node-id=7%3A753"
+                href="https://hdpyscript.vercel.app/"
                 rel="noreferrer"
-                className="btn"
+                className="btn btn-primary"
                 target="_blank"
               >
-                Figma
+                Live Demo
               </a>
             </div>
           </div>
